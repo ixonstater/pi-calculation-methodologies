@@ -8,7 +8,7 @@ function monteCarloWrapper(win){
     win.appendChild(dartBoard)
 
     var numDartsLabel = document.createElement('p')
-    numDartsLabel.innerHTML = 'Number of Darts'
+    numDartsLabel.innerHTML = 'Number of Darts: '
     numDartsLabel.id = 'num-darts-label'
     win.appendChild(numDartsLabel)
 
@@ -17,7 +17,7 @@ function monteCarloWrapper(win){
     win.appendChild(numDartsInput)
 
     var boxSizeLabel = document.createElement('p')
-    boxSizeLabel.innerHTML = 'Box Wall Length'
+    boxSizeLabel.innerHTML = 'Box Wall Length: '
     boxSizeLabel.id = 'box-size-label'
     win.appendChild(boxSizeLabel)
 

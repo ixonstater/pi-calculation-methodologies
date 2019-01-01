@@ -130,3 +130,33 @@ body{
 #archimedes-explanation-container{
   display: none;
 }
+
+#archimedes-drawing{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 11px;
+  left: 2px;
+}
+
+#num-sides-label{
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#num-sides-input{
+  margin-left: 10px;
+}
+
+#archimedes-start-sim-button{
+  margin-left: 10px;
+}
+
+#archimedes-clear-sim-button{
+  margin-left: 10px;
+}
+
+#archimedes-sim-result-display{
+  margin-top: 10px;
+  margin-left: 10px;
+}

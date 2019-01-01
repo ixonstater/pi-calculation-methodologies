@@ -1,0 +1,132 @@
+body{
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+.moveable-window{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  border: black solid 2px;
+  user-select: none;
+}
+
+.window-top-deliminator{
+  display: block;
+  height: 2px;
+  background-color: black;
+  width: inherit;
+  padding: 0px;
+  border: 0px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+  position: inherit;
+}
+
+.win-label{
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 7px;
+  text-decoration: underline;
+  user-select: none;
+}
+
+.explanation-container{
+  height: auto;
+  width: 500px;
+  position: absolute;
+  left: 10px;
+  top: 550px;
+}
+
+.start-sim-button{
+  position: relative;
+
+}
+
+.clear-sim-button{
+  position: relative;
+}
+
+.sim-result-display{
+  position: absolute;
+}
+
+#leibniz-explanation-container{
+  display: none;
+}
+
+#num-iters-label{
+  position: relative;
+  margin-top: 50px;
+}
+
+#num-iters-input{
+
+}
+
+#leibniz-start-sim-button{
+  position: relative;
+  top: 35px;
+  right: 175px;
+}
+
+#leibniz-clear-sim-button{
+  position: relative;
+  top: 35px;
+  right: 170px;
+}
+
+#leibniz-sim-result-display{
+  top: 180px;
+}
+
+#monte-carlo-explanation-container{
+  display: none;
+}
+
+#dart-board{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 10px;
+  top: 20px;
+  border: black 1px solid;
+}
+
+#num-darts-label{
+  position: relative;
+  margin-left: 20px;
+}
+
+#box-size-label{
+  position: relative;
+  margin-left: 20px;
+}
+
+#num-darts-input{
+  position: relative;
+  margin-left: 20px;
+}
+
+#box-size-input{
+  position: relative;
+  margin-left: 20px;
+}
+
+#monte-carlo-start-sim-button{
+  margin-left: 20px;
+}
+
+#monte-carlo-clear-sim-button{
+  margin-left: 20px;
+}
+
+#monte-carlo-sim-result-display{
+  top: 366px;
+  left: 223px;
+}
+
+#archimedes-explanation-container{
+  display: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>
+    <script src="monte_carlo_sim.js"></script>
+    <script src="archimedes_sim.js"></script>
+    <script src="leibniz_sim.js"></script>
+    <link href="index.css" type="text/css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <select id="main-selector">
+      <option value="leibniz">Leibniz</option>
+      <option value="monte-carlo">Monte-Carlo</option>
+      <option value="archimedes">Archimedes</option>
+    </select>
+    <button id="submit-selection">Details</button>
+    <div id="window-attach-point"></div>
+    <div id="leibniz-explanation-container" class="explanation-container">
+      <span>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;The Leibniz methodology is an example of the commonly accepted modern technique.  It involves the usage of a particularly beautiful
+          taylor series infinite polynomial.  It can be shown using calculus that the exact value of pi is representable by an infinite series of the following form:
+          <br/><span><image src="leibniz_general_form.svg"></image></span><br/> which can be expanded to:
+          <br/><span><image src="taylor_series_expansion.gif"></image></span><br/>
+          This particular taylor series converges much more slowely than others of its variety, but it is a classical example and a fairly fascinating one at that.
+        </p>
+      </span>
+    </div>
+    <div id="monte-carlo-explanation-container" class="explanation-container">
+      <span>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;The Monte-Carlo methodology is perhaps the least useful technique here discussed.  It is used commonly enough, though, to demonstrate the
+          applicability of computers to mathematical analysis.  It involves the theoretical situation of a dart board having exactly square dimensions in which a circle is
+          inscribed such that the edges of the circle are tangent to the edges of the box at exactly four points and do not cross otherwise.  Onto the board a colossal
+          number of darts are dropped at random coordinates, the probability that a dart will fall into the circular portion of the board can then be calculated and compared
+          to the actual area of the square to give an approximation of the area of the circle which can then be used to approximate pi.
+        </p>
+      </span>
+    </div>
+    <div id="archimedes-explanation-container" class="explanation-container">
+      <span>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;The Archimedian methodology, like the Monte-Carlo methodology, is not particularly useful and relies upon geometrical intricacies to
+          make it's point.  However, it is somewhat more elegant than the Monte-Carlo methodology which, while fascinating, amounts to little more than a brute force
+          attack on the problem.  The Archimedian method involves sandwiching a circle in the bounds of two polygons with calculable areas and therefore concluding that
+          the circle's area must be less than the outer but greater than the inner.  Archimedes himself calculated that pi must sit between the fractions
+          <br/><span><image src="pi_upper.gif"></image></span>&nbsp;&nbsp;and&nbsp;&nbsp;<span><image src="pi_lower.gif"></image></span>, an approximation which remains
+          popular to this day.
+        </p>
+      </span>
+    </div>
+  </body>
+</html>
